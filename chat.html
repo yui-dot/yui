@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat with Me!</title>
+    </head>
+    <body>
+        <div id="messages"></div>
+        <input type="text" id="nameInput" placeholder="Name">
+        <input type="text" id="messageInput" placeholder="Message">
+        
+        <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="chat.js"></script>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC9bnZqFFeexhBIfr3OgX2h-Cil1cl8lKw",
+    authDomain: "chat-c0682.firebaseapp.com",
+    databaseURL: "https://chat-c0682.firebaseio.com",
+    projectId: "chat-c0682",
+    storageBucket: "chat-c0682.appspot.com",
+    messagingSenderId: "784392845157",
+    appId: "1:784392845157:web:40a362bd432fa1b7a8538c",
+    measurementId: "G-DN2KJN08J5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+    </body>
+</html>
